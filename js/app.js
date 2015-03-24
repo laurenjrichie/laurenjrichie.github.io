@@ -10,4 +10,10 @@ $(document).ready(function() {
         scrollTop: $("#projects").offset().top
     }, 500);
   });
+  
+  $("#about-menu").click(function() {
+    $('html, body').animate({
+        scrollTop: $("body").offset().top
+    }, 500);
+  });
 });
