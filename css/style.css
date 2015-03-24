@@ -1,0 +1,82 @@
+.about-header {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.about-text {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+p.about-text {
+  padding-bottom: 15px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin: 20px 10px 40px 10px;
+}
+
+#navbar {
+  margin-top: 13px;
+  background-color: transparent;
+  font-weight: bold;
+  box-shadow: 0 0 0 0;
+  font-size: 2em;
+}
+
+#scroll-down-label {
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+.scroll-down {
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.scroll-down a {
+  color: black;
+}
+
+#landing-content {
+  height: 100%;
+}
+
+.scroll-down a:hover {
+  color: #B5947E;
+}
+
+#project-cards {
+  padding-top: 30px;
+}
+
+#project-cards p.header {
+  padding-bottom: 10px;
+}
+
+#index-background {
+  height: 100vh;
+  position: relative;
+}
+
+#projects {
+  height: 100vh;
+}
+
+/*#face {
+  height: 110px;
+  width: 110px;
+  border-radius: 18px;
+  margin-top: 100px;
+}*/
