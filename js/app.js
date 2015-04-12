@@ -16,4 +16,8 @@ $(document).ready(function() {
         scrollTop: $("body").offset().top
     }, 500);
   });
+  
+   var wH = $(window).height();
+   console.log(wH);
+   $('#index-background').css({height: wH});
 });

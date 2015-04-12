@@ -1,8 +1,14 @@
+body {
+  overflow-x: hidden;
+  padding-top: 70px;
+}
+
 .about-header {
   font-size: 3em;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 10px;
+  margin-top: 0;
 }
 
 .about-text {
@@ -22,11 +28,17 @@ p.about-text {
 }
 
 #navbar {
-  margin-top: 13px;
   background-color: transparent;
   font-weight: bold;
-  box-shadow: 0 0 0 0;
-  font-size: 2em;
+  border: none;
+}
+
+#navbar a {
+  color: black;
+  font-size: 1.2em;
+  cursor: pointer;
+  cursor: hand;
+
 }
 
 #scroll-down-label {
@@ -66,7 +78,7 @@ p.about-text {
 }
 
 #index-background {
-  height: 100vh;
+  /*height: 100vh;*/
   /*height: 100%;*/
   position: relative;
 }
