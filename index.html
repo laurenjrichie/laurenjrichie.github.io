@@ -24,23 +24,36 @@
   
 </div>
 
-<div class="" id="index-background" data-parallax="scroll" data-image-src="/images/sun.jpg">
-  <div class="" id="landing-content">
+<div id="index-background" data-parallax="scroll" data-image-src="/images/sun.jpg">
+  <div id="landing-content">
     <h1 class="about-header">Lauren Richie</h1>
     <h2 class="about-text">full-stack engineer</h2>
     <h2 class="about-text">conservation biologist</h2>
-    <div class="center aligned five column row">
-      <a href="https://github.com/laurenjrichie"><img src="images/github.png" class="icon" alt="github" /></a>
-      <a href="https://www.linkedin.com/in/laurenjrichie"><img src="images/linkedin.png" class="icon" alt="linkedin" /></a>
-      <a href="https://twitter.com/laurenjrichie"><img src="images/twitter.png" class="icon" alt="twitter" /></a>
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-3 col-md-6 text-center">
+        <a href="https://github.com/laurenjrichie"><img src="images/github.png" class="icon" alt="github" /></a>
+        <a href="https://www.linkedin.com/in/laurenjrichie"><img src="images/linkedin.png" class="icon" alt="linkedin" /></a>
+        <a href="https://twitter.com/laurenjrichie"><img src="images/twitter.png" class="icon" alt="twitter" /></a>
+      </div>
     </div>
-    <p class="about-text">
-      Full-stack web developer and conservation biologist interested in using technology<br>
-       for positive social and environmental change.
-    </p>
-    <p class="about-text">
-      Skills: Javascript, JQuery, D3.js, Ruby, Rails, Ember, test driven development.
-    </p>
+    <div id="text-description">
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-3 col-md-6">
+          <p class="about-text">
+            Full-stack web developer and conservation biologist interested in using technology
+             for positive social and environmental change.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-3 col-md-6">
+          <p class="about-text">
+            Skills: Javascript, JQuery, D3.js, Ruby, Rails, Ember, test driven development.
+          </p>
+        </div>
+      </div>
+      
+    </div>
     <div class="scroll-down">
       <a href="#">
         <p id="scroll-down-label">projects</p>
@@ -50,18 +63,14 @@
     </div>
 </div>
 
-<div class="ui grid" id='projects' data-parallax="scroll" data-image-src="/images/trees.jpg">
-  <div class="twelve wide centered column">
-    <h1 class="about-header">Projects</h1>
-    <div class="ui two special doubling cards" id='project-cards'>
-      <div class="card">
-        <div class="image">
-          <img src="images/d3-screenshot.png" alt="wolf-story-app" />
-        </div>
-        <div class="content">
-          <p class="header">
-            Comeback
-          </p>
+<div id='projects' data-parallax="scroll" data-image-src="/images/trees.jpg">
+  <h1 class="about-header">Projects</h1>
+  <div class="row">  
+    <div class="col-sm-4 col-sm-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/d3-screenshot.png" alt="wolf-story-app" class="img-thumbnail"/>
+          <h4>Comeback</h4>
           <p>
             A data visualization and storytelling narrative that describes 
             the history of the gray wolf in the contiguous US, from persecution 
@@ -73,20 +82,18 @@
           <p>
             Built with Javascript and D3.js and data parsed with Ruby.
           </p>
-        </div>
-        <div class="extra content">
-          <a href="https://github.com/laurenjrichie/wolf-story">github</a>  |  
-          <a href="http://graywolfstory.com/">live</a>
+          <p>
+            <a href="https://github.com/laurenjrichie/wolf-story">github</a>  |  
+            <a href="http://graywolfstory.com/">live</a>
+          </p>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
-          <img src="images/adoption-app.png" alt="adoption-app" />
-        </div>
-        <div class="content">
-          <p class="header">
-            SF Adoption App
-          </p>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/adoption-app.png" alt="adoption-app" class="img-thumbnail"/>
+          <h4>SF Adoption App</h4>
           <p>
             Using data scraped from the San Francisco SPCA's website,
             this app shows animals available for adoption and enables visitors
@@ -95,20 +102,20 @@
           <p>
             Built using Ruby on Rails and some single-page functionality.
           </p>
-        </div>
-        <div class="extra content">
-          <a href="https://github.com/laurenjrichie/adoption-app">github</a>  |  
-          <a href="https://still-dawn-7553.herokuapp.com/">live</a>
+          <p>
+            <a href="https://github.com/laurenjrichie/adoption-app">github</a>  |  
+            <a href="https://still-dawn-7553.herokuapp.com/">live</a>
+          </p>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
-          <img src="images/gcamp.png" alt="gCamp" />
-        </div>
-        <div class="content">
-          <p class="header">
-            gCamp
-          </p>
+    </div>
+  </div>
+  <div class="row">  
+    <div class="col-sm-4 col-sm-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/gcamp.png" alt="gcamp" class="img-thumbnail"/>
+          <h4>gCamp</h4>
           <p>
             A project management app that allows users to manage projects,
             associated tasks, and members.
@@ -116,20 +123,18 @@
           <p>
             Built using Ruby on Rails and test coverage with capybara and rspec.
           </p>
-        </div>
-        <div class="extra content">
-          <a href="https://github.com/laurenjrichie/gCamp">github</a>  |  
-          <a href="https://frozen-wildwood-7613.herokuapp.com/">live</a>
+          <p>
+            <a href="https://github.com/laurenjrichie/gCamp">github</a>  |  
+            <a href="https://frozen-wildwood-7613.herokuapp.com/">live</a>
+          </p>
         </div>
       </div>
-      <div class="card">
-        <div class="image">
-          <img src="images/food-truck.png" alt="food-truck-app" />
-        </div>
-        <div class="content">
-          <p class="header">
-            SF Food Truck Finder
-          </p>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <img src="images/food-truck.png" alt="food-truck" class="img-thumbnail"/>
+          <h4>SF Food Truck Finder</h4>
           <p>
             App to find currently open food trucks using datasf.org's API.
             Users can also add missing food trucks to the app's own API.
@@ -137,10 +142,10 @@
           <p>
             Built using Ember CLI and Ruby on Rails.
           </p>
-        </div>
-        <div class="extra content">
-          <a href="https://github.com/laurenjrichie/food-truck-ember-cli">github</a>  |  
-          <a href="https://intense-citadel-3135.herokuapp.com/trucks/">live</a>
+          <p>
+            <a href="https://github.com/laurenjrichie/food-truck-ember-cli">github</a>  |  
+            <a href="https://intense-citadel-3135.herokuapp.com/trucks/">live</a>
+          </p>
         </div>
       </div>
     </div>
@@ -148,8 +153,8 @@
 </div>
 
 <script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/app.js"></script>
 <script src="js/semantic.min.js"></script>
 <script src="js/parallax.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

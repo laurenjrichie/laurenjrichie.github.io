@@ -17,7 +17,7 @@ $(document).ready(function() {
     }, 500);
   });
   
-   var wH = $(window).height();
-   console.log(wH);
-   $('#index-background').css({height: wH});
+  //  var wH = $(window).height();
+  //  console.log(wH);
+  //  $('#index-background').css({height: wH});
 });
