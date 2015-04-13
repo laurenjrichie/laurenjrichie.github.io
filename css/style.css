@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+#down-arrow {
+  height: 20px;
+}
+
 .about-header {
   font-size: 3em;
   text-align: center;
